@@ -53,6 +53,12 @@
     font-family: 'Hachi Maru Pop', cursive;
   }
 
+  .nav-container{
+    width: 80vw;
+    height: 400px;
+
+  }
+
   nav{
     display: block;
     justify-content: center;
