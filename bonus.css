@@ -21,11 +21,13 @@
     border-radius: 5px;
     top: 20px;
     opacity: 0.5;
+    clear: both;
+    content: "";
+    display: table;
   }
   
   .logo-container{
     position: relative;
-    z-index: 2;
     height: 100px;
     width: 500px;
     left: 50%;
@@ -56,20 +58,21 @@
 
   .nav-container{
     width: 80vw;
-    height: 200px;
-    position: absolute;
-    z-index: 1;
-
+    clear: both;
+    content: "";
+    display: table;
   }
 
   nav{
+    position: absolute;
     border-radius: 5px;
     opacity: 0.8;
     width: 80vw;
+    background-color: #fdecda;
   }
   
   nav ul{
-    background-color: #fdecda;
+ 
     list-style-type: none;
     margin: 0;
     width: 80%;
