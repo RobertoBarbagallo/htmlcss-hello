@@ -35,14 +35,12 @@
   #logo{
     height: 100px;
     width: 100px;
-    display: inline-block;
     float: left;
   }
   
   .logotext{
     height: 100px;
     width: 400px;
-    display: inline-block;
     float: left;
     background-color: #fdecda;
   }
