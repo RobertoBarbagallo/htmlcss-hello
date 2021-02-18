@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image: url(sfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header{
+    height: 100px;
+    width: 80vw;
+    background-color: #fdecda;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    top: 20px;
+    opacity: 0.5;
+  }
+  
+  .logo-container{
+    position: relative;
+    height: 100px;
+    width: 500px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+  }
+  
+  #logo{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    float: left;
+  }
+  
+  .logotext{
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    background-color: #fdecda;
+  }
+  
+  
+  
+  h1{
+    color: #922ff7;
+    line-height: 100px;
+    font-family: 'Hachi Maru Pop', cursive;
+  }
